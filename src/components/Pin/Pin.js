@@ -3,26 +3,26 @@ import './Pin.css';
 
 class Pin extends Component {
 
-  constructor(props){
-    super(props);
+    constructor(props) {
+        super(props);
 
-    this.state = {
+        this.state = {
+
+        }
 
     }
 
-  }
+    componentDidMount() {
 
-  componentDidMount(){
-    
-  }
+    }
 
-  render() {
-    return (
-      <section className='pin_container'>
-        
-      </section>
-    );
-  }
+    render() {
+        return (
+            <section className='pin_container'>
+
+            </section>
+        );
+    }
 }
 
 
