@@ -1,0 +1,55 @@
+.pin_container{
+    width: 300px;
+    height: auto;
+    padding: 20px 10px 20px 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.pin_container:hover{
+    background: #ccc;
+}
+
+.pin_image_wrapper{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    position: relative;
+}
+
+.pin_image{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.pin_caption{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+}
+
+.pin_upload{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.pin_save{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: red;
+}
+
+.pin_img_source{
+    max-width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
